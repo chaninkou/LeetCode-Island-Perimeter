@@ -23,7 +23,7 @@ public class FindIslandPerimeter {
 	        }
 
 	        // Each island have 4 sides
-	        // 1 neighours means 2 line is gone
+	        // 1 neighours means 2 lines is gone
 	        return islands * 4 - neighbours * 2;
 	    }
 }
